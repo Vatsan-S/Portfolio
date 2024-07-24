@@ -342,9 +342,9 @@ const About = () => {
 
         <div className="contentInProjectPage experience">
           <div className="timeLineSection">
-            <p className="timeline">Sep 2023</p>
+            <p className="timeline">Sep 2022</p>
             <p className="timeline">to</p>
-            <p className="timeline">Jan 2024</p>
+            <p className="timeline">Jan 2023</p>
           </div>
           <div className="workDetailsSection">
             <h4 className="titleInProjectPage role">UX designer</h4>
@@ -362,7 +362,7 @@ const About = () => {
           <div className="timeLineSection">
             <p className="timeline">Mar 2022</p>
             <p className="timeline">to</p>
-            <p className="timeline">Jun 2023</p>
+            <p className="timeline">Jun 2022</p>
           </div>
           <div className="workDetailsSection">
             <h4 className="titleInProjectPage role">UX designer</h4>

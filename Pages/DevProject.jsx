@@ -11,10 +11,7 @@ const DevProject = () => {
     <div className="projectContainer">
       <Navbar />
       <Link to="/">
-        <p className="backText">
-          {" "}
-          Development Project
-        </p>
+        <p className="backText"> Development Project</p>
       </Link>
 
       <h2 className="pageTitle projectPageTitle">
@@ -88,6 +85,12 @@ const DevProject = () => {
             </li>
             <li>
               {" "}
+              <span className="boldText">Admin Dashboard: </span> Includes
+              inventory to edit product, stocks and have few basic stats of
+              sales
+            </li>
+            <li>
+              {" "}
               <span className="boldText">Responsive Design: </span>Ensures
               accessibility across various devices and screen sizes.
             </li>
@@ -122,13 +125,13 @@ const DevProject = () => {
                 </p>
               </div>
               <Card
-              type="Development"
-              title="MERN Ecommerce Practice Project With Admin Dashboard"
-              id="1"
-               image="https://res.cloudinary.com/ddycjnke1/EcommerceCardPreview_p3am4o"
-               who='Practice Project'
-               role='Design-Code'
-            />
+                type="Development"
+                title="MERN Ecommerce Practice Project With Admin Dashboard"
+                id="1"
+                image="https://res.cloudinary.com/ddycjnke1/EcommerceCardPreview_p3am4o"
+                who="Practice Project"
+                role="Design-Code"
+              />
             </div>
           </div>
           <div className="cardLayout">
@@ -138,7 +141,7 @@ const DevProject = () => {
               who="Hospitality Marketing Team"
               role="Research to UI"
               link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
-              image='https://res.cloudinary.com/ddycjnke1/PreviewImage3_snpk78'
+              image="https://res.cloudinary.com/ddycjnke1/PreviewImage3_snpk78"
             />
           </div>
           <div className="cardLayout">
@@ -148,7 +151,7 @@ const DevProject = () => {
 booking site to reduce direct calls"
               who="Newspaper Publication"
               role="Research to wireframes"
-              image='https://res.cloudinary.com/ddycjnke1/Previewimage2_j4ocxm'
+              image="https://res.cloudinary.com/ddycjnke1/Previewimage2_j4ocxm"
               link="https://www.behance.net/gallery/140740473/Ux-Redesign-Newspaper-Ad-online-booking-platform"
             />
           </div>
@@ -158,8 +161,8 @@ booking site to reduce direct calls"
               title="Improving Customer Lifetime Value CLTV - Here its productivity"
               image="https://res.cloudinary.com/ddycjnke1/Preview_image_bskymj"
               link="https://www.behance.net/gallery/145928103/Improving-customer-lifetime-value-CLTV"
-              who='Team Management Platforms'
-              role='Research'
+              who="Team Management Platforms"
+              role="Research"
             />
           </div>
         </div>
