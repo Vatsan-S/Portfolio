@@ -1,45 +1,44 @@
 import React from "react";
-import { IoArrowBack } from "react-icons/io5";
 import Navbar from "../Components/Navbar";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer";
 import Card from "../Components/Card";
 import { IoInformationCircleOutline } from "react-icons/io5";
-
-const DevProject = () => {
+const Taskmanagement = () => {
   return (
     <div className="projectContainer">
       <Navbar />
       <Link to="/">
         <p className="backText"> Development Project</p>
       </Link>
-
       <h2 className="pageTitle projectPageTitle">
-        MERN Ecommerce Practice Project With Admin Dashboard
+        Task Management Web app for teams alike Trello
       </h2>
       <a
-        href="https://identity-ecommerce-frontend.vercel.app/"
+        href="https://infinityflow-fe.vercel.app/"
         target="_blank"
         title="Click here to redirect"
       >
         <div className="imagePreview">
           <img
-            src="https://res.cloudinary.com/ddycjnke1/Preview1_dseisp"
-            alt="Eccomerce web app preview and link"
+            src="https://res.cloudinary.com/ddycjnke1/InfiFlow2_wy34vj"
+            alt="TaskManagement web app preview and link"
           />
         </div>
         <p className="suggestionText">Click the preview to redirect</p>
       </a>
-
       <div className="productPageLayout">
         <h3 className="titleInProjectPage">Description</h3>
         <p className="contentInProjectPage">
-          Welcome to my MERN Ecommerce Practice Project with Admin Dashboard, a
-          journey into ecommerce development showcasing my exploration of the
-          MERN (MongoDB, Express.js, React.js, Node.js) stack. Designed for
-          developers seeking practical experience, this project emphasizes my
-          commitment to learning and applying versatile technologies in modern
-          web application development.
+          Welcome to my Task Management Web App, a project crafted to enhance
+          team alignment and productivity through transparent workflows and
+          goal-oriented task tracking. Built using the MERN (MongoDB,
+          Express.js, React.js, Node.js) stack, this app reflects my dedication
+          to solving real-world challenges in project management. It offers a
+          hands-on exploration of modern web development practices, aiming to
+          provide a practical solution for companies seeking to streamline
+          operations and maintain a clear focus on their vision and mission as
+          they grow.
         </p>
       </div>
       <div className="productPageLayout">
@@ -70,36 +69,41 @@ const DevProject = () => {
           <ul>
             <li>
               {" "}
-              <span className="boldText">Product Catalog: </span>Explore diverse
-              products with detailed descriptions.
+              <span className="boldText">Task Creation & Assignment: </span>
+              Easily create tasks, assign them to team members, and set
+              priorities to keep everyone aligned with project goals.
             </li>
             <li>
               {" "}
-              <span className="boldText">Shopping Cart: </span>Seamlessly manage
-              selections and transactions.
+              <span className="boldText">Team & Role Management: </span>Manage
+              user roles and teams efficiently, allowing for clear delegation
+              and tracking of responsibilities.
             </li>
             <li>
               {" "}
-              <span className="boldText">User Authentication: </span> Includes
-              basic signup and login functionalities.
+              <span className="boldText"> Subtask Management: </span> Create,
+              assign, and track subtasks with ease, ensuring that complex
+              projects are broken down into manageable steps.
             </li>
             <li>
               {" "}
-              <span className="boldText">Admin Dashboard: </span> Includes
-              inventory to edit product, stocks and have few basic stats of
-              sales
+              <span className="boldText">Request Raising: </span> Streamline
+              communication by allowing team members to raise requests for
+              resources, approvals, or support, keeping the workflow smooth and
+              efficient.
             </li>
             <li>
               {" "}
-              <span className="boldText">Responsive Design: </span>Ensures
-              accessibility across various devices and screen sizes.
+              <span className="boldText">Search: </span>Quickly locate tasks and
+              subtasks using the search feature, making it easy to
+              navigate even the most detailed projects.
             </li>
           </ul>
         </p>
       </div>
       <div className="imagePreview">
         <img
-          src="https://res.cloudinary.com/ddycjnke1/Preview2_bsndyq"
+          src="https://res.cloudinary.com/ddycjnke1/InfiFlow1_yxn47i"
           alt=""
         />
       </div>
@@ -125,17 +129,6 @@ const DevProject = () => {
                 </p>
               </div>
               <Card
-                type="Development"
-                title="MERN Ecommerce Practice Project With Admin Dashboard"
-                id="1"
-                image="https://res.cloudinary.com/ddycjnke1/EcommerceCardPreview_p3am4o"
-                who="Practice Project"
-                role="Design-Code"
-              />
-            </div>
-          </div>
-          <div className="cardLayout">
-            <Card
               type="Development"
               title="Task Management Web app for teams alike Trello"
               who="Portfolio Project"
@@ -144,6 +137,18 @@ const DevProject = () => {
               image='https://res.cloudinary.com/ddycjnke1/Display_Img_brwt32'
               
             />
+            </div>
+          </div>
+          <div className="cardLayout">
+            
+            <Card
+                type="Development"
+                title="MERN Ecommerce Practice Project With Admin Dashboard"
+                id="1"
+                image="https://res.cloudinary.com/ddycjnke1/EcommerceCardPreview_p3am4o"
+                who="Practice Project"
+                role="Design-Code"
+              />
           </div>
           <div className="cardLayout">
             <Card
@@ -169,8 +174,9 @@ const DevProject = () => {
         </div>
       </div>
       <Footer />
+      
     </div>
   );
 };
 
-export default DevProject;
+export default Taskmanagement;

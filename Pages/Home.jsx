@@ -23,6 +23,17 @@ const Home = () => {
       <div className="caseStudiesContainer">
         <p className="secondaryTitle">Few Projects & Casestudies</p>
         <div className="homeCardsContainer">
+        <div className="cardLayout">
+            <Card
+              type="Development"
+              title="Task Management Web app for teams alike Trello"
+              who="Portfolio Project"
+              role="Research, design wireframes to code"
+              id="2"
+              image='https://res.cloudinary.com/ddycjnke1/Display_Img_brwt32'
+              
+            />
+          </div>
           <div className="cardLayout">
             <Card
               type="Development"
@@ -43,17 +54,7 @@ const Home = () => {
               image='https://res.cloudinary.com/ddycjnke1/PreviewImage3_snpk78'
             />
           </div>
-          <div className="cardLayout">
-            <Card
-              type="Design"
-              title="Re-Design on ad publishment
-booking site to reduce direct calls"
-              who="Newspaper Publication"
-              role="Research to wireframes"
-              image='https://res.cloudinary.com/ddycjnke1/Previewimage2_j4ocxm'
-              link="https://www.behance.net/gallery/140740473/Ux-Redesign-Newspaper-Ad-online-booking-platform"
-            />
-          </div>
+          
           <div className="cardLayout">
             <Card
               type="Case Study"

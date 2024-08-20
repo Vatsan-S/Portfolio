@@ -4,6 +4,7 @@ import Home from '../Pages/Home';
 import DevProject from '../Pages/DevProject';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
+import Taskmanagement from '../Pages/Taskmanagement';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/project/1' element={<DevProject/>}/>
+        <Route path='/project/2' element={<Taskmanagement/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
