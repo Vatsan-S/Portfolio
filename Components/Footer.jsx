@@ -17,11 +17,11 @@ const Footer = () => {
         </button>
         <p>or</p>
         <Link
-          to="/resume"
+          to="/"
           className="backText"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/16gPQVJrRMGQZtVOETAFElZ6wSBH6-IPt/view?usp=sharing"
+              "https://drive.google.com/file/d/1OsiKL0EGUkMcq3nZrEfX5_etUoSDSpKg/view?usp=sharing"
             );
           }}
         >
