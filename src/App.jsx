@@ -5,6 +5,7 @@ import DevProject from '../Pages/DevProject';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
 import Taskmanagement from '../Pages/Taskmanagement';
+import Artlinq from '../Pages/Artlinq';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/project/1' element={<DevProject/>}/>
         <Route path='/project/2' element={<Taskmanagement/>}/>
+        <Route path='/project/3' element={<Artlinq/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>

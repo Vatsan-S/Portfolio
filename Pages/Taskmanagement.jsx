@@ -151,13 +151,14 @@ const Taskmanagement = () => {
               />
           </div>
           <div className="cardLayout">
-            <Card
-              type="Design"
-              title="To Design a complex sales management application - with simpler userflows and information architecture"
-              who="Hospitality Marketing Team"
-              role="Research to UI"
-              link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
-              image="https://res.cloudinary.com/ddycjnke1/PreviewImage3_snpk78"
+          <Card
+              type="Development"
+              title="Connecting Artists with Clients Through a Seamless Booking and Communication Platform."
+              who="Freelance Artists"
+              role="Research to code"
+              // link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
+              id='3'
+              image='https://res.cloudinary.com/ddycjnke1/Display_Image_juphsd'
             />
           </div>
          
