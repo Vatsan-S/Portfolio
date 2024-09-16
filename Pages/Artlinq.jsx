@@ -30,6 +30,12 @@ const Artlinq = () => {
         <p className="suggestionText">Click the preview to redirect</p>
       </a>
       <div className="productPageLayout">
+      <h3>Credentials</h3>
+      
+      <p>email:artist2@gmail.com</p>
+      <p>password:Passwd@147</p>
+      </div>
+      <div className="productPageLayout">
         <h3 className="titleInProjectPage">Description</h3>
         <p className="contentInProjectPage">
           ArtLinq is a dynamic platform designed to bridge the gap between

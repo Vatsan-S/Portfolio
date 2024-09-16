@@ -27,6 +27,11 @@ const Taskmanagement = () => {
         </div>
         <p className="suggestionText">Click the preview to redirect</p>
       </a>
+
+      <div className="productPageLayout">
+      <h3>Credentials</h3>
+      <p>Credentials are given at login Page</p>
+      </div>
       <div className="productPageLayout">
         <h3 className="titleInProjectPage">Description</h3>
         <p className="contentInProjectPage">

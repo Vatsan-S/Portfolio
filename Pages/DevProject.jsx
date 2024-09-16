@@ -30,7 +30,12 @@ const DevProject = () => {
         </div>
         <p className="suggestionText">Click the preview to redirect</p>
       </a>
-
+      <div className="productPageLayout">
+      <h3>Admin Credentials</h3>
+      
+      <p>email:vatsan@gmail.com</p>
+      <p>password:123456</p>
+      </div>
       <div className="productPageLayout">
         <h3 className="titleInProjectPage">Description</h3>
         <p className="contentInProjectPage">
