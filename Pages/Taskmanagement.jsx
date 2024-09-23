@@ -25,12 +25,14 @@ const Taskmanagement = () => {
             alt="TaskManagement web app preview and link"
           />
         </div>
-        <p className="suggestionText">Click the preview to redirect</p>
+        <p className="suggestionText">Click the preview to redirect towards project</p>
       </a>
 
       <div className="productPageLayout">
       <h3>Credentials</h3>
       <p>Credentials are given at login Page</p>
+
+      <p>Sign In to Manager and get into <strong>BOX 2</strong></p>
       </div>
       <div className="productPageLayout">
         <h3 className="titleInProjectPage">Description</h3>
@@ -144,17 +146,7 @@ const Taskmanagement = () => {
             />
             </div>
           </div>
-          <div className="cardLayout">
-            
-            <Card
-                type="Development"
-                title="MERN Ecommerce Practice Project With Admin Dashboard"
-                id="1"
-                image="https://res.cloudinary.com/ddycjnke1/EcommerceCardPreview_p3am4o"
-                who="Practice Project"
-                role="Design-Code"
-              />
-          </div>
+          
           <div className="cardLayout">
           <Card
               type="Development"
@@ -175,6 +167,37 @@ const Taskmanagement = () => {
               link="https://www.behance.net/gallery/145928103/Improving-customer-lifetime-value-CLTV"
               who="Team Management Platforms"
               role="Research"
+            />
+          </div><div className="cardLayout">
+            
+            <Card
+                type="Development"
+                title="MERN Ecommerce Practice Project With Admin Dashboard"
+                id="1"
+                image="https://res.cloudinary.com/ddycjnke1/EcommerceCardPreview_p3am4o"
+                who="Practice Project"
+                role="Design-Code"
+              />
+          </div>
+          <div className="cardLayout">
+            <Card
+              type="Design"
+              title="To Design a complex sales management application - with simpler userflows and information architecture"
+              who="Hospitality Marketing Team"
+              role="Research to UI"
+              link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
+              image='https://res.cloudinary.com/ddycjnke1/PreviewImage3_snpk78'
+            />
+          </div>
+          <div className="cardLayout">
+            <Card
+              type="Development"
+              title="E-commerce Platform for Natural Products with Product and Delivery Management."
+              who="Product Owners"
+              role="code"
+              // link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
+              id='4'
+              image='https://res.cloudinary.com/ddycjnke1/Display_Image_mx4bjc'
             />
           </div>
         </div>
