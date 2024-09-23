@@ -34,6 +34,9 @@ const Artlinq = () => {
       
       <p>email:artist2@gmail.com</p>
       <p>password:Passwd@147</p>
+      <br /><br />
+      <a href="https://github.com/Vatsan-S/artlinqfe">Git Hub - Frontend</a>
+      <a href="https://github.com/Vatsan-S/ArtLinQ-BE">Git Hub - Backend</a>
       </div>
       <div className="productPageLayout">
         <h3 className="titleInProjectPage">Description</h3>

@@ -17,7 +17,7 @@ const SereneSoil = () => {
         Management.
       </h2>
       <a
-        href="https://infinityflow-fe.vercel.app/"
+        href="https://agri-dell.vercel.app/"
         target="_blank"
         title="Click here to redirect"
       >
@@ -43,6 +43,10 @@ const SereneSoil = () => {
           <strong>Admin</strong> <br />
           Username: admin123, Password: admin@pass
         </p>
+        <a href="https://agri-dell-vigz.vercel.app/">Admin Link</a>
+        <br />
+        <br />
+        <a href="https://github.com/Vatsan-S/AgriDell">Repository Link</a>
       </div>
       <div className="productPageLayout">
         <h3 className="titleInProjectPage">Description</h3>
