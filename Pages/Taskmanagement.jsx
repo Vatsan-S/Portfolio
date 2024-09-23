@@ -33,6 +33,7 @@ const Taskmanagement = () => {
       <p>Credentials are given at login Page</p>
       <br /><br />
       <a href="https://github.com/Vatsan-S/infinityflowFE">GitHub Link - Frontend</a>
+      <br />
       <a href="https://github.com/Vatsan-S/InfinityFlowBE">GitHub Link - Backend</a>
 
       <p>Sign In to Manager and get into <strong>BOX 2</strong></p>
