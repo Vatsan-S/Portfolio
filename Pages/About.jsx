@@ -73,6 +73,114 @@ const About = () => {
           continually evolving in my professional journey.
         </p>
       </div>
+      <div className="productPageLayout">
+        <h3 className="titleInProjectPage">Skill Development & Projects</h3>
+        <div className="contentInProjectPage experience">
+          <div className="timeLineSection">
+            <p className="timeline">Mar 2024</p>
+            <p className="timeline">to</p>
+            <p className="timeline">Jul 2024</p>
+          </div>
+          <div className="workDetailsSection">
+            <h4 className="titleInProjectPage role">
+              Guvi - Fullstack web developement
+            </h4>
+            <p className="expPara">
+              Guvi - EdTech Company incubated by IIT-M & IIM-A
+            </p>
+            <br />
+            <h4 className="titleInProjectPage role">Skills</h4>
+            <ul className="expDescription">
+              <li className="expPara">
+                <span className="boldText"> Proficient in React:</span>
+                Strong grasp of components, hooks, and global state management
+                with redux.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Async Operations:</span>
+                Focused on managing async operations with Promises and
+                async/await.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Clean UI Development:</span>
+                Skilled in coding visually appealing and intuitive interfaces.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Backend:</span>
+                Clean Routes and proper models to handle requests
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Database:</span>
+                Knowledge in MongoDB and learning Postgre
+              </li>
+            </ul>
+
+            <br />
+            <br />
+            <h4 className="titleInProjectPage role">Projects</h4>
+            <br />
+            <br />
+            <h4 className="titleInProjectPage role">
+              1. Task Management Web app for teams alike Trello
+            </h4>
+            <br />
+            <ul className="expDescription">
+              <li className="expPara">
+                <span className="boldText"> Multi-User Support: </span>
+                Role-based authentication for three distinct roles: admin, team
+                lead, and team member.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Dynamic UI: </span>
+                Tailored user interfaces with functionalities that adapt based
+                on user roles.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Real-Time Data Rendering: </span>
+                Utilizes React for responsive interfaces and Redux for efficient
+                state management.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Robust Backend: </span>
+                Developed with Node.js and Express, with MongoDB for scalable
+                data storage. Scalable Architecture: Built to accommodate future
+                growth and enhanced features.
+              </li>
+            </ul>
+
+            <br />
+            <br />
+            <h4 className="titleInProjectPage role">
+              2. Connecting Artists with Clients Through a Seamless Booking and
+              Communication Platform.
+            </h4>
+            <br />
+            <ul className="expDescription">
+              <li className="expPara">
+                <span className="boldText"> Artist Connection Platform: </span>
+                Facilitates collaboration between artists and clients.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Real-Time Communication: </span>
+                Integrated chat system for instant interactions with socket.io
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Appointment Booking: </span>
+                Seamless scheduling for client-artist interactions.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Dynamic UI: </span>
+                Responsive design tailored for user engagement.
+              </li>
+              <li className="expPara">
+                <span className="boldText"> Robust Backend: </span>
+                Developed with Node.js and Express, using MongoDB for data
+                management
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div className="technologiesContainer productPageLayout">
         <h3 className="titleInProjectPage">Technologies known...</h3>
         <div className="contentInProjectPage techContent">
@@ -386,7 +494,7 @@ const About = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="contentInProjectPage experience">
           <div className="timeLineSection">
             <p className="timeline">Jun 2020</p>
@@ -401,9 +509,7 @@ const About = () => {
             </p>
             <ul className="expDescription">
               <li className="expPara">
-                <span className="boldText">
-                  Product: Success target:
-                </span>
+                <span className="boldText">Product: Success target:</span>
                 we were headed towards building more intuitive, interactive and
                 simpler user flows.Key features - Data search, Team management,
                 Data Visualization and monitoring
