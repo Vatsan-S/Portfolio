@@ -8,9 +8,7 @@ const Taskmanagement = () => {
   return (
     <div className="projectContainer">
       <Navbar />
-      <Link to="/">
-        <p className="backText"> Development Project</p>
-      </Link>
+      
       <h2 className="pageTitle projectPageTitle">
         Task Management Web app for teams alike Trello
       </h2>

@@ -168,6 +168,11 @@ a {
 .bannerImagecontainer {
   height: 80vh;
 }
+.ActionButtons{
+  display: flex;
+  gap: 18px;
+  width: 400px;
+}
 /* ----------Home------------- */
 .industriesContainer {
   padding: 32px;
@@ -553,7 +558,12 @@ a {
     margin-bottom: 48px;
     margin-top:24px;
   }
-
+  .ActionButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 70%;
+  }
   .navContent {
     gap: 48px;
   }

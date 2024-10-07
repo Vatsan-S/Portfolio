@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import Card from "../Components/Card";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         <div className="aboutBannerContent">
           <h2 className="aboutTitle">Vatsan</h2>
           <p className="aboutDescription">
-            Full Stack Developer{" "}
+            UI UX Designer & Developer{" "}
             <span>
               <svg
                 width="52"
@@ -546,7 +547,76 @@ const About = () => {
           </div>
         </div>
       </div>
-
+      <div className="caseStudiesContainer">
+        <p className="secondaryTitle">Few Projects & Casestudies</p>
+        <div className="homeCardsContainer">
+        <div className="cardLayout">
+            <Card
+              type="Development"
+              title="Task Management Web app for teams alike Trello"
+              who="Portfolio Project"
+              role="Research, design wireframes to code"
+              id="2"
+              image='https://res.cloudinary.com/ddycjnke1/Display_Img_brwt32'
+              
+            />
+          </div>
+          
+         
+          <div className="cardLayout">
+            <Card
+              type="Development"
+              title="Connecting Artists with Clients Through a Seamless Booking and Communication Platform."
+              who="Freelance Artists"
+              role="Research to code"
+              // link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
+              id='3'
+              image='https://res.cloudinary.com/ddycjnke1/Display_Image_juphsd'
+            />
+          </div>
+          <div className="cardLayout">
+            <Card
+              type="Development"
+              title="E-commerce Platform for Natural Products with Product and Delivery Management."
+              who="Product Owners"
+              role="code"
+              // link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
+              id='4'
+              image='https://res.cloudinary.com/ddycjnke1/Display_Image_mx4bjc'
+            />
+          </div>
+          <div className="cardLayout">
+            <Card
+              type="Development"
+              title="MERN Ecommerce Practice Project With Admin Dashboard"
+              id="1"
+              image="https://res.cloudinary.com/ddycjnke1/EcommerceCardPreview_p3am4o"
+              who="Practice Project"
+              role="Design-Code"
+            />
+          </div>
+          <div className="cardLayout">
+            <Card
+              type="Case Study"
+              title="Improving Customer Lifetime Value CLTV - Here its productivity"
+              image="https://res.cloudinary.com/ddycjnke1/Preview_image_bskymj"
+              link="https://www.behance.net/gallery/145928103/Improving-customer-lifetime-value-CLTV"
+              who='Team Management Platforms'
+              role='Research'
+            />
+          </div>
+           <div className="cardLayout">
+            <Card
+              type="Design"
+              title="To Design a complex sales management application - with simpler userflows and information architecture"
+              who="Hospitality Marketing Team"
+              role="Research to UI"
+              link="https://www.behance.net/gallery/148002641/Ux-Case-study-Improving-Information-Architect"
+              image='https://res.cloudinary.com/ddycjnke1/PreviewImage3_snpk78'
+            />
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );

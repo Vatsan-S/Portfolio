@@ -21,7 +21,7 @@ const Card = ({ title, type, who, role, id, image,link }) => {
       <div className="cardTextContent">
         <h4 className="cardTitle">{title}</h4>
         <div className="para">
-          <p className="cardPara">Who: {who}</p>
+          {/* <p className="cardPara">Who: {who}</p> */}
           <p className="cardPara">Role: {role}</p>
         </div>
         {type === "Design" ? (

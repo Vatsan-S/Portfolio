@@ -16,7 +16,10 @@ const Banner = () => {
           <p className="bannerDescription">
             Evolving with Every Challenge: Committed to Excellence and Mastery
           </p>
+          <div className="ActionButtons">
           <button className="button primary bannerButton" onClick={()=>{navigate("/about")}}>Explore my journey</button>
+          <a href="https://www.behance.net/infocreatoca34" target="_blank"><button className="button bannerButton">Explore Design Portfolio</button></a>
+          </div>
         </div>
         <div className="bannerImageContainer">
           <img

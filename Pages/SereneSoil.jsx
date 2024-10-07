@@ -9,9 +9,7 @@ const SereneSoil = () => {
   return (
     <div className="projectContainer">
       <Navbar />
-      <Link to="/">
-        <p className="backText"> Development Project</p>
-      </Link>
+    
       <h2 className="pageTitle projectPageTitle">
         E-commerce Platform for Natural Products with Product and Delivery
         Management.
