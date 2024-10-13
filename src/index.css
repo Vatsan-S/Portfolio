@@ -37,6 +37,10 @@ body {
   position: relative;
 }
 /* ----------common components----------- */
+.titleSplit{
+  display: flex;
+  justify-content: space-between;
+}
 .button {
   padding: 12px 16px;
   border: none;

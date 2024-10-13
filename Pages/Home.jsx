@@ -21,7 +21,7 @@ const Home = () => {
         </ul>
       </div>
       <div className="caseStudiesContainer">
-        <p className="secondaryTitle">Few Projects & Casestudies</p>
+        <p className="secondaryTitle">Dev Projects & Casestudies</p>
         <div className="homeCardsContainer">
         <div className="cardLayout">
             <Card
@@ -90,6 +90,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <hr /> */}
+      {/* <div className="industriesContainer">
+      <h3 className="bannerTitle">From Designs to Code: My Journey</h3>
+          <p className="bannerDescription">
+            Evolving with Every Challenge: Committed to Excellence and Mastery
+          </p>
+      <a href="https://www.behance.net/infocreatoca34" target="_blank"><button className="button primary bannerButton">Explore Design Portfolio</button></a>
+      </div> */}
       <Footer />
     </div>
   );
