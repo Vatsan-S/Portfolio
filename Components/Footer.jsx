@@ -21,7 +21,7 @@ const Footer = () => {
           className="backText"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1OsiKL0EGUkMcq3nZrEfX5_etUoSDSpKg/view?usp=sharing"
+              "https://drive.google.com/file/d/13VoxT2uEPw6wVydGhUgu8fTxrFw7pb65/view?usp=sharing"
             );
           }}
         >
