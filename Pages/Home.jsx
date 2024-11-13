@@ -20,6 +20,12 @@ const Home = () => {
           <li className="industry">Publishing</li>
         </ul>
       </div>
+      <div className="industriesContainer">
+        <div className="designCard">
+          <h2 className="designText">Explore my <br />design portfolio</h2>
+          <a href="https://www.behance.net/infocreatoca34" target="blank"><h5 className="button">Click here &gt;&gt;&gt;&gt;</h5></a>
+        </div>
+      </div>
       <div className="caseStudiesContainer">
         <p className="secondaryTitle">Dev Projects & Casestudies</p>
         <div className="homeCardsContainer">
